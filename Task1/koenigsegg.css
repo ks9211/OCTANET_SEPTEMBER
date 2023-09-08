@@ -1,0 +1,373 @@
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    transition: all 1s;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+   
+}
+
+header {
+    background-color: transparent;
+    position: relative;
+    color: #fff;
+    padding: 10px 0;
+    z-index: 1000;
+    transition: all 0.3s;
+}
+
+header.sticky-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color:darkgray;
+}
+
+.pic{
+     background-image: url('k1.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.3s;
+}
+
+.logo{
+   
+    width: 200px;
+    height: 100px;
+    align-items: center;
+    display: flex;
+}
+
+.brand-name {
+    font-size: 24px; 
+    margin-left: 10px; 
+    color: #fff;;
+    transition: color 0.3s;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+    z-index: 1;
+}
+
+nav ul {
+    
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: serif;
+    color: white;
+    font-size: 20px;
+    transition: color 0.3s;
+    
+}
+
+nav a:hover{
+    color: #ff3300;
+    text-decoration: underline;
+}
+
+.hero {
+
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    background-position:center;
+    color: #fff;
+
+    padding: 100px 0;
+    position: relative;
+    z-index: 0;
+    transition: padding 0.3s;
+}
+
+.hero-content{
+    position: relative;
+    z-index: 1;
+    margin-top: 160px;
+    margin-left: 100px;
+    
+    
+}
+
+.spans{
+    margin-left: 320px;
+    font-size: 75px;
+    font-family: 'Racing Sans One', cursive;
+    transition: margin-left 0.3s;
+}
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-family: sans-serif;
+    background-color:transparent;
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #ff3300;
+}
+
+
+
+.overview {
+    background-color: #fff;
+    color: black;
+    padding: 100px;
+}
+
+.overview-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex; 
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.overview-left {
+    flex: 1; 
+}
+
+.overview-left span {
+    font-size: 40px;
+}
+
+.overview-right {
+    flex: 2;
+    
+}
+
+.overview-right p {
+   
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.bg {
+    background-image: url('back.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom; 
+    min-height: 900px;
+    position: relative;
+    transition: background-image 0.3s;
+}
+
+.bg-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 200px;
+    color: #fff;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.new-section {
+    background-image: url('engine.png');
+    background-size: cover;
+    background-position: center center; 
+    color: white; 
+    padding: 20px;
+    height: 800px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.new-section-title {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.new-section-content {
+    margin-top: 20px;
+     
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+
+
+.gemera-specs {
+    background-color:#f5f5f5;
+    color: black;
+    padding: 100px;
+}
+
+.gemera-specs-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gemera-specs-left {
+    flex: 1;
+}
+
+.gemera-specs-left span {
+    font-size: 40px;
+}
+
+.gemera-specs-left h2 {
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+.gemera-specs-right {
+    flex: 2;
+}
+
+.gemera-specs-right ul {
+    list-style: none;
+    padding: 0;
+}
+
+.gemera-specs-right ul li {
+    margin-bottom: 20px;
+}
+
+.gemera-specs-right ul li strong {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.gemera-specs-right ul li br {
+    display: none; 
+}
+
+
+.comfort {
+    background-color: #fff; 
+    color: #333;
+    padding: 100px;
+}
+
+.comfort-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.comfort-left {
+    flex: 1;
+    margin-right: 40px;
+}
+
+.comfort-left span {
+    font-size: 40px;
+}
+
+.comfort-right {
+    flex: 2;
+    margin-right: 30px;
+}
+
+.comfort-right p {
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    width: 300px; 
+    height: 200px; 
+    overflow: hidden;
+    margin: 10px;
+    border: 2px solid #ccc;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+footer {
+    width: 100%;
+    height: 200px;
+    
+    background-color: #f5f5f5;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-end; 
+    align-items: center; 
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+   
+}
+
+footer nav ul li {
+    margin: 0 10px;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+footer nav ul li a:hover {
+    color: #ff3300;
+}
+
+footer p {
+    font-size: 14px;
+    margin: 35px;
+    color: black;
+}
